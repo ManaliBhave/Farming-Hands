@@ -1,0 +1,2 @@
+## HACK - AI - THON
+Problem Statement: Across the Globe India is the second largest country having more than 1.3 billion. Many people are dependent on agriculture and it is the main resource. In Agriculture Cultivation/Production having more problems, from the dataset give a solution for solving these problems. While doing this one more fact needs to be considered is youth of the nation should be motivated for doing farming with the help of state-of-the-art AI technologies.

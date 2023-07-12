@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<!-- banner -->
+<section class="banner_w3lspvt" id="home">
+	<div class="csslider infinity" id="slider1">
+				<div class="banner-top">
+					<div class="overlay">
+						<div class="container">
+							<div class="w3layouts-banner-info text-center">
+								<h3 class="text-wh">Farming Hands</h3>
+								<h4 class="text-wh mx-auto my-4"><b>Improving Agriculture, Improves Lives.</b></h4>
+								<br>
+								<h4 class="text-wh mx-auto my-4"><strong></strong></h4>
+								<p class="text-li mx-auto mt-2">
+									Wondering which crop to use? Will that crop be profitable enough? 
+									Not to worry, cause we have your back!
+									Farming Hands is a highly trained model that helps you find the best crop. It not only checks your region but finds the best pick for you by taking in parameters based on the furtiveness of soil and weather.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+	</div>
+</section>
+
+<section class="blog py-5 ">
+	<div class="container py-md-5">
+		<h3 class="heading mb-sm-5 mb-4 text-center">Crop Recommendation</h3>
+		<div class="row blog-grids">
+			<div class="col-lg-4 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5">
+				<img src="{{ url_for('static', filename='images/s3.jpg') }}" class="img-fluid" alt="" />
+				<a href="{{ url_for('crop_recommend') }}">
+					<div class="blog-info">
+						<h4>Crop</h4>
+						<p class="mt-2"> Recommendation about the type of crops to be cultivated which is best suited
+							for the respective conditions</p>
+					</div>
+				</a>
+		</div>
+	</div>
+</section>
+</html>
+
+{% endblock %}
